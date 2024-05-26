@@ -5,7 +5,7 @@
     "keywords": ["laravel", "framework"],
     "license": "MIT",
     "require": {
-        "php": "^8.1",
+        "php": "^8.2.0",
         "asantibanez/livewire-calendar": "^2.2",
         "ckeditor/ckeditor": "4.*",
         "filament/filament": "^2.17",
