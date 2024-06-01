@@ -6,12 +6,16 @@ const typography = require('@tailwindcss/typography'); // Import the typography 
 
 module.exports = {
   darkMode: 'class', // Enable dark mode using class-based approach
+  important: true,
 
   content: [
     './vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php',
     './vendor/laravel/jetstream/**/*.blade.php',
     './storage/framework/views/*.php',
     './resources/views/**/*.blade.php',
+    './resources/**/*.js',
+    './resources/**/*.css',
+    './resources/**/*.vue',
   ],
 
   theme: {
