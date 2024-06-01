@@ -4,6 +4,7 @@
     "scripts": {
         "dev": "vite",
         "build": "vite build"
+        
     },
     "devDependencies": {
         "@alpinejs/focus": "^3.10.5",
@@ -24,4 +25,8 @@
         "fullcalendar": "^6.1.9",
         "tw-elements": "^1.0.0"
     }
+
+    
+   
+      
 }
