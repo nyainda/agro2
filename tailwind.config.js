@@ -16,6 +16,8 @@ module.exports = {
     './resources/**/*.js',
     './resources/**/*.css',
     './resources/**/*.vue',
+    './public/**/*.css',
+    './public/**/*.js',
   ],
 
   theme: {
