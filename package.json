@@ -19,6 +19,7 @@
     },
     "dependencies": {
         "@fullcalendar/interaction": "^6.1.9",
+        "@vercel/postgres": "^0.8.0",
         "ckeditor4": "^4.23.0",
         "color": "^4.2.3",
         "fullcalendar": "^6.1.9",

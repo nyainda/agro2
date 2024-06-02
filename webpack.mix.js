@@ -1,10 +1,17 @@
 const mix = require('laravel-mix');
 
-// Set the public path to 'resources/assets' directory
-mix.setPublicPath('resources/assets');
+/*
+ |--------------------------------------------------------------------------
+ | Mix Asset Management
+ |--------------------------------------------------------------------------
+ |
+ | Mix provides a clean, fluent API for defining some Webpack build steps
+ | for your Laravel applications. By default, we are compiling the CSS
+ | file for the application as well as bundling up all the JS files.
+ |
+ */
 
-// Compile CSS
-mix.postCss('resources/css/app.css', 'css');
-
-// Compile JavaScript
-mix.js('resources/js/app.js', 'js');
+mix.js('resources/js/app.js', 'public/js')
+    .postCss('resources/css/app.css', 'public/css', [
+        //
+    ]);
