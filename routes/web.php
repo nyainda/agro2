@@ -31,7 +31,7 @@ Route::get('/', function () {
 });
 
 // Authenticated routes
-Route::group(['middleware' => ['auth:sanctum', config('jetstream.auth_session'), 'verified']], function () {
+Route::group(['middleware' => ['auth:sanctum', config('jetstream.auth_session')]], function () {
 
     // Dashboard
     Route::get('dashboard', function () {
